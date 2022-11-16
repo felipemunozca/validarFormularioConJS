@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Se agrega la fuente Roboto de google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Validar formulario con JS</title>
+</head>
+<body>
+    
+    <div class="container">
+        <form id="formulario" class="claseFormulario">
+            <h2>Formulario de Registro:</h2>
+            <div class="formulario-control">
+                <label for="usuario">Usuario</label>
+                <input type="text" id="usuario" name="Usuario" placeholder="Escriba su nombre de usuario">
+                <small>Mensaje de error</small>
+            </div>
+            <div class="formulario-control">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="Email" placeholder="Escriba su email">
+                <small>Mensaje de error</small>
+            </div>
+            <div class="formulario-control">
+                <label for="password1">Contraseña</label>
+                <input type="password" id="password1" name="Contraseña" placeholder="Escriba su contraseña">
+                <small>Mensaje de error</small>
+            </div>
+            <div class="formulario-control">
+                <label for="password2">Repetir contraseña</label>
+                <input type="password" id="password2" placeholder="Escriba su contraseña de nuevo">
+                <small>Mensaje de error</small>
+            </div>
+            <button type="submit">Registrarse</button>
+        </form>
+    </div>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
